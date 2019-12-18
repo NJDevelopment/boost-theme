@@ -1,0 +1,91 @@
+/* Site wide */
+
+h1, h2, h3, h4 {
+  color: #2B2D42;
+  font-weight: 500;
+}
+
+/* Left side menu */
+
+.list-group-item.active {
+  background-color: #009f3d;
+}
+
+[data-region="drawer"] {
+  background-color: #f8f9fa;
+}
+
+/* Front page */
+
+.courses .coursebox.even {
+  background-color: #f8f9fa;
+}
+
+.coursename a {
+  color: #2b2d42;
+}
+
+/* Feedback activity page styling */
+#page-mod-feedback-complete .col-md-3 {
+  flex: none;
+  width: 50%;
+  max-width: 50%;
+  background-color: #f8f9fa;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+#page-mod-feedback-complete .col-md-3 .icon {
+  margin-left: 5px;
+}
+
+/* Footer */
+
+#page-footer {
+  background-color: #2B2D42 !important;
+}
+
+/* Inside courses  */
+
+.badge-info {
+  color: #800000;
+  background-color: #ffe6e6;
+}
+
+/* Bootstrap button overrides */
+
+.btn-primary {
+  background-color: #1176A5;
+}
+
+/* Quiz area  */
+
+.que .info {
+  background-color: #f8f9fa;
+}
+
+.que .formulation {
+  background-color: #E9f2f6;
+}
+
+/* Media queries */
+
+@media (min-width: 968px) {
+  #page-mod-feedback-complete .col-md-3 {
+    flex: none;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  #page-mod-feedback-complete .col-md-3 {
+    flex: none;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1578px;
+  }
+}
